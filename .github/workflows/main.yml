@@ -34,5 +34,11 @@ jobs:
         PROVINCE: ${{ secrets.PROVINCE }}
         CITY: ${{ secrets.CITY }}
         SFZX: ${{ secrets.SFZX }}
+        AUSERNAME: ${{ secrets.AUSERNAME }}
+        APASSWORD: ${{ secrets.APASSWORD }}
+        AAREA: ${{ secrets.AAREA }}
+        APROVINCE: ${{ secrets.APROVINCE }}
+        ACITY: ${{ secrets.ACITY }}
+        ASFZX: ${{ secrets.ASFZX }}
       run: python auto.py
 
