@@ -98,4 +98,13 @@ if __name__ == '__main__':
 		"city" : os.environ["CITY"],
 		"sfzx" : os.environ["SFZX"]
 	}
+        Auser = {
+                "username" : os.environ["AUSERNAME"],
+                "password" : os.environ["APASSWORD"],
+                "area" : os.environ["AAREA"],
+                "province" : os.environ["APROVINCE"],
+                "city" : os.environ["ACITY"],
+                "sfzx" : os.environ["ASFZX"]
+        }
 	Automatic(user=user)
+        Automatic(user=Auser)
