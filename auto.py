@@ -55,6 +55,7 @@ class Automatic(object):
 		data["city"] = self.user["city"]
 		data["province"] = self.user["province"]
 		data["sfzx"] = self.user["sfzx"]
+                print(data)
 
 		try:
 			print("Cookies:")
