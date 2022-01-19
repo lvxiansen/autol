@@ -108,4 +108,4 @@ if __name__ == '__main__':
 		"sfzx" : os.environ["ASFZX"]
 	}
 	Automatic(user=user)
-        Automatic(user=Auser)
+	Automatic(user=Auser)
