@@ -103,5 +103,5 @@ if __name__ == '__main__':
         "city": os.environ["ACITY"],
         "sfzx": os.environ["ASFZX"]
     }
-    Automatic(user=user)
+    #Automatic(user=user)
     #Automatic(user=Auser)
